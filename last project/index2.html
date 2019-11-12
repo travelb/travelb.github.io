@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Travel book</title>
+	<link href="https://fonts.googleapis.com/css?family=Courgette|Dancing+Script|Nanum+Myeongjo|Permanent+Marker" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="stylesheet" href="style2.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+</head>
+<body>
+<!--menu  -->
+<div class="topnav" id="myTopnav">
+	<nav class="navbar navbar-expand-lg navbar-light">
+	  <a class="navbar-brand" href="#"><img src="https://2kckmk1oabwe2e7tgb35crjv-wpengine.netdna-ssl.com/wp-content/uploads/2017/02/travel-icon-png-25.jpg.png" width="50px" height="50px"><span class="t_book">Travel book</span></a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	  <span class="navbar-toggler-icon"></span>
+	  </button>
+  	  <div class="collapse navbar-collapse" id="navbarNav">
+	    <ul class="navbar-nav ml-auto ">
+	      <li class="nav-item">
+	        <a class="nav-link" href="index.html">Главная<span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="index3.html">Туры</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="index4.html">Отели</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="index2.html">Авиабилеты</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="index5.html">О нас</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="index6.html">Контакты</a>
+	      </li>
+    	</ul>
+  	  </div>
+	</nav>
+</div>
+<!-- форма -->
+
+	<div class="background_img">
+		<p class="tickets">Купить авиабилеты дешево-это просто!</p>
+		<div class="box">
+		<div class="form">
+			<div class="first_label">
+				<label for="text">Город отправления:</label><br>
+				<input type="text" id="text" placeholder="Город отправления:" required>
+			</div>
+			<div>
+				<label for="text">Город прибытия:</label><br>
+				<input type="text" id="text" placeholder="Город прибытия:" required>
+			</div>
+		</div>
+		<div class="circle" style="margin-left: 38%;">
+			<label for="text" class="label">В одну сторону</label>
+			<input type="radio" id="radio" name="gender">
+
+			<label for="text">Туда и обратно</label>
+			<input type="radio" id="radio" name="gender">
+
+			<label for="text">Сложный маршрут</label>
+			<input type="radio" id="radio" name="gender">
+		</div>
+		<div class="form">
+			<div class="first_label">
+				<label for="text">Туда:</label><br>
+				<input type="date" id="text" placeholder="Город отправления:" required>
+			</div>
+			<div>
+				<label for="text">Обратно:</label><br>
+				<input type="date" id="text" placeholder="Город прибытия:" required>
+			</div>
+		</div>
+		<div class="form">
+			<div class="first_label">
+				<label for="text">Взрослые:</label><br>
+				<select id="option">
+					<option selected>1</option>
+					<option value="1">2</option>
+					<option value="1">3</option>
+					<option value="1">4</option>
+					<option value="1">5</option>
+				</select>
+			</div>
+			<div class="first_label">
+				<label for="text">Дети(2-12):</label><br>
+				<select id="option">
+					<option>1</option>
+					<option selected>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+				</select>
+			</div>
+			<div>
+				<label for="text">Младенцы(<2):</label><br>
+				<select id="option">
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option selected>4</option>
+					<option>5</option>
+				</select>
+			</div>
+		</div>
+		<button class="find">Найти</button>
+	</div>
+	</div>
+
+	<div class="bg_img1">
+		<div class="row">
+			<div class="col">
+				<i class="far fa-credit-card"></i><br><br>
+	            <span>Удобно</span>
+	            <p>Мы берем все заботы на себя, главное-возьмите с собой паспорт</p>
+			</div>
+			<div class="col">
+				<i class="fas fa-globe-americas"></i><br><br>
+	            <span>Надежно</span>
+	            <p>Наша компания гарантируют вашу поездку</p>
+			</div>
+			<div class="col">
+				<i class="fas fa-shield-alt"></i><br><br>
+				<span>Выгодно</span>
+				<p>Самые выгодные предложения-экономим ваше время и деньги</p>
+			</div>
+		</div>
+   	</div>
+<!-- footer -->
+	<footer>
+	<div id="footer">
+		<div class="container">
+			<div class="row">
+			<div class="col-lg-4 col-md-6 col-sm-12">
+				<img src="https://2kckmk1oabwe2e7tgb35crjv-wpengine.netdna-ssl.com/wp-content/uploads/2017/02/travel-icon-png-25.jpg.png" width="100px" height="100px">
+				<p class="t_book">Travel book</p>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-12">
+				<p class="contact1">Контакты:</p>
+				<p>+996(312)66-88-98, <span>+996(700)66-88-98,</span></p>
+				<p>+996(555)66-88-98</p>
+				<p class="border"></p>
+				<p class="address">Наш адрес:</p>
+				<p>Г. Бишкек, ул. Керамическая 102</p>
+			</div>
+			<div class="col-4 col-md-4 col-sm-12 sots_set">
+				<i class="fab fa-facebook-f"></i>
+				<i class="fab fa-instagram"></i>
+				<i class="fab fa-twitter"></i>
+				<i class="fab fa-whatsapp"></i>
+				<i class="fab fa-github"></i>
+			</div>
+		</div>
+		</div>
+		
+	</div>
+</footer>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+</html>

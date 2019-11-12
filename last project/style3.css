@@ -1,0 +1,237 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+          /*NAV   */
+
+.t_book {
+  font-size: 20px;
+ /* color: #fff;*/
+  margin-top: 25px;
+  color: #5798fe !important;
+  font-family: 'Patua One', cursive;
+}
+.navbar-light {
+  background-color: #f6456e;
+}
+.nav-link {
+  color: #fff !important;
+  font-size: 20px;
+}
+.nav-link:hover{
+  color: black !important;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: black;
+  text-decoration: none;
+}
+/* Add an active class to highlight the current page */
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+.logo {
+  font-size: 53px;
+  color: #5798fe;
+ }
+.menu_bottom {
+  display: flex;
+  justify-content: center;
+}
+.menu_bottom i{
+  font-size: 53px;
+  color: #5798fe;
+  margin-top: 10px;
+}
+.menu_bottom span {
+  font-size: 30px;
+  color: #fff;
+  margin-top: 25px;
+  color: #5798fe;
+  font-family: 'Patua One', cursive;
+}
+          /*END NAV*/
+.bg_img {
+  background: url(http://protrip.ru/wp-content/uploads/2016/09/artleo.com-74103.jpg) no-repeat;
+  width:100%;
+  height: 100vh;
+  background-size: cover;
+}
+.text {
+  color: #858a9b;
+  float: left;
+  margin: 130px 0 0 100px;
+  width: 50%;
+  font-size: 25px;
+  line-height: 1.5em;
+}
+.text1 {
+  color: #858a9b;
+  float: left;
+  margin: 50px 60px 0 100px;
+  width: 40%;
+  font-size: 25px;
+  line-height: 1.5em;
+}
+.text2 {
+  color: #858a9b;                     
+  float: left;
+  margin: 30px 60px 0 100px;
+  width: 40%;
+  font-size: 25px;
+  line-height: 1.5em;
+}
+
+@media (min-width: 300px) and (max-width: 576px) {
+  .text, .text1, .text2 {
+    display: none;
+  }
+
+  .gif {
+    margin: 0;
+    width: 100%;
+  }
+
+  .gif img {
+    width: 100%;
+  }
+}
+
+.container {
+  margin: 50px 0 0 50px;
+	width: 1250px;
+	margin: 70 auto 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.container .box {
+	position: relative;
+	width: 500px;
+	height: 0 auto;
+	background: #ff0;
+	margin: 15px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+/*@media (min-width: 300px) and (max-width: 576px) {
+  .container, .box {
+    height: none;
+  }*/
+.container .box .imgBox {
+	position: relative;
+	overflow: hidden;
+}
+.container .box .imgBox img {
+	max-width: 100%;
+	transition: transform 2s;
+}
+.container .box:hover .imgBox img {
+	transform: scale(1.2);
+}
+.container .box .details {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	bottom: 10px;
+	right: 10px;
+	background: rgba(0,0,0,.8);
+	transform: scaleY(0);
+	transition: transform .5s;
+}
+.container .box:hover .details{
+		transform: scaleY(1);
+}
+.container .box .details .content {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	padding: 15px;
+	color: #fff;
+}
+.container .box .details .content h2{
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	color: #ff0;
+}
+.container .box .details .content p{
+	margin: 10px 0 0;
+	padding: 0;
+}
+.gif {
+  text-align: center;
+  margin-top: 40px;
+}
+footer{
+  background: #426cda;
+}
+#footer {
+  width: 100%;
+  margin-top:20px;
+  padding: 50px 0;
+  text-align: center;
+  color: #fff;
+}
+/*#footer .fa-phoenix-framework {
+  font-size: 100px;
+  color: #5798fe;
+}*/
+.t_book {
+  font-size: 25px;
+  color: white;
+  width: 100%;
+}
+.contact {
+  color: #fff;
+  top: 4em;
+}
+.contact1 {
+  font-size: 22px;
+}
+.contact span {
+  margin-left: 15px;
+}
+.border {
+  border: 1px solid yellow;
+  width: 350px;
+}
+.address {
+  font-size: 20px;
+}
+.sots_set {
+  margin: 0 auto;
+  padding: 0;
+  width: 50%;
+  font-size: 30px;
+  color: #fff;
+  top: 50px;
+  word-spacing: 0.5em;
+}
